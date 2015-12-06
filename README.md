@@ -18,6 +18,15 @@ SYS\_5V Maximum Current 250mA!
 
 ## BBB PRU programming
 
+## Particle Photon
+
+CLI installation on MAC
+
+[Tutorial particle CLI on Mac OSX](https://community.particle.io/t/tutorial-particle-cli-on-mac-osx-26-sep-2015/5225)
+
+```bash
+npm install -g particle-cli
+```
 References:
 
 1. [Different Servo Vendor pin definition](http://www.fatlion.com/sailplanes/servos.html)
