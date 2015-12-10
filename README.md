@@ -24,10 +24,34 @@ CLI installation on MAC
 
 [Tutorial particle CLI on Mac OSX](https://community.particle.io/t/tutorial-particle-cli-on-mac-osx-26-sep-2015/5225)
 
+### GCC-ARM-Embedded toolchain
+
+[Tool chain installation guide](https://launchpadlibrarian.net/209775724/readme.txt)
+
 ```bash
 npm install -g particle-cli
 ```
+### Different Modes on Particle Photon
+
+[Particle IO official doc: Modes](https://docs.particle.io/guide/getting-started/modes/photon/)
+
+[Particle Photon NodeJS Setup](http://blog.jongallant.com/2015/08/particle-photon-setup-nodejs.html)
+
+#### Get Photon ID
+
+Under listening mode
+
+```bash
+particle identify 
+```
+or
+```bash
+particle serial identify
+```
+
 References:
+
+# BBB
 
 1. [Different Servo Vendor pin definition](http://www.fatlion.com/sailplanes/servos.html)
 
@@ -40,3 +64,9 @@ References:
 5. [BeagleBone Black PRU](http://beagleboard.org/pru)
 
 6. [IOT Prototyping with Particle Photon](http://www.tamberg.org/chopen/2015/IoTPrototyping.pdf)
+
+# Particle/ARM
+
+1. [Particle Docs: The Build System](https://github.com/spark/firmware/blob/latest/docs/build.md)
+
+2. [Sparkfun photon development guide:ARM GCC and DFU bootloader offline](https://learn.sparkfun.com/tutorials/photon-development-guide/arm-gcc-and-the-dfu-bootloader-offline)
