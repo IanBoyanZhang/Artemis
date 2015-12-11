@@ -44,6 +44,7 @@ Under listening mode
 ```bash
 particle identify 
 ```
+```
 or
 ```bash
 particle serial identify
