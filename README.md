@@ -4,8 +4,6 @@
 
 [Sparkfun SM-S430R servo motor](https://www.sparkfun.com/products/9347)
 
-[AT42QT1010 Breakout](https://www.sparkfun.com/products/12041)
-
 Voltage:
 
 (Battery Pack?)
@@ -13,10 +11,19 @@ Voltage:
 
 Calibrate servo with built-in potentiometer with method shown in Ref[2]
 
+## Touch button
+[AT42QT1010 Breakout](https://www.sparkfun.com/products/12041)
+
 ## BBB Power output
 SYS\_5V Maximum Current 250mA!
 
 ## BBB PRU programming
+
+[Using the C language to program the am335x PRU](http://www.embeddedrelated.com/showarticle/603.php)
+
+[Using the Beaglebone PRU to achieve realtime at low cost](http://www.embeddedrelated.com/showarticle/586.php)
+
+[Third party PRU tool](https://github.com/texane/pru_sdk/tree/master/example/pruss_c)
 
 ## Particle Photon
 
@@ -37,7 +44,7 @@ npm install -g particle-cli
 
 [Particle Photon NodeJS Setup](http://blog.jongallant.com/2015/08/particle-photon-setup-nodejs.html)
 
-#### Get Photon ID
+### Get Photon ID
 
 Under listening mode
 
@@ -48,6 +55,22 @@ particle identify
 or
 ```bash
 particle serial identify
+```
+
+#### Communication Core
+
+Communication core source code location
+
+./firmware/communication
+
+### Serial Communication
+
+In terminal:
+
+Ex: 
+```bash
+screen /dev/tty.usbmodem1421
+
 ```
 
 References:
@@ -71,3 +94,5 @@ References:
 1. [Particle Docs: The Build System](https://github.com/spark/firmware/blob/latest/docs/build.md)
 
 2. [Sparkfun photon development guide:ARM GCC and DFU bootloader offline](https://learn.sparkfun.com/tutorials/photon-development-guide/arm-gcc-and-the-dfu-bootloader-offline)
+
+3. [How to use serial print with Particle](https://community.particle.io/t/how-to-use-serial-print/4456)
