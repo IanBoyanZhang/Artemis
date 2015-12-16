@@ -73,6 +73,17 @@ screen /dev/tty.usbmodem1421
 
 ```
 
+## Light Blue Bean (Bean)
+
+Virtual Serial Port under OS X
+
+TODO: research Bean library
+
+```bash
+/tmp/tty.LightBlue-Bean
+```
+
+
 References:
 
 # BBB
@@ -96,3 +107,7 @@ References:
 2. [Sparkfun photon development guide:ARM GCC and DFU bootloader offline](https://learn.sparkfun.com/tutorials/photon-development-guide/arm-gcc-and-the-dfu-bootloader-offline)
 
 3. [How to use serial print with Particle](https://community.particle.io/t/how-to-use-serial-print/4456)
+
+# Bean/ATmega328p
+
+1. [Bean Serial Loop Back](https://github.com/evothings/evothings-examples/blob/master/experiments/lightblue-bean-serial/SerialLoopback/SerialLoopback.ino)
