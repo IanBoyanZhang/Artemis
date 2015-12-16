@@ -75,14 +75,19 @@ screen /dev/tty.usbmodem1421
 
 ## Light Blue Bean (Bean)
 
-Virtual Serial Port under OS X
+### Getting started OSX
 
-TODO: research Bean library
+[Getting Started OSX](http://legacy.punchthrough.com/bean/getting-started-osx/)
+
+### Virtual Serial Port under OS X
+
+TODO: research Bean library/Serial-BLE Bridge
 
 ```bash
 /tmp/tty.LightBlue-Bean
 ```
 
+[Setting virtual serial](http://legacy.punchthrough.com/bean/arduino-users-guide/#setting-virtual-serial)
 
 References:
 
@@ -111,3 +116,7 @@ References:
 # Bean/ATmega328p
 
 1. [Bean Serial Loop Back](https://github.com/evothings/evothings-examples/blob/master/experiments/lightblue-bean-serial/SerialLoopback/SerialLoopback.ino)
+
+2. [Bean Bluetooth documentation](https://github.com/PunchThrough/bean-documentation)
+
+3. [Bean dev reference](https://punchthrough.com/files/bean/sdk-docs/index.html)
