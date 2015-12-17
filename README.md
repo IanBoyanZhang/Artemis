@@ -120,3 +120,11 @@ References:
 2. [Bean Bluetooth documentation](https://github.com/PunchThrough/bean-documentation)
 
 3. [Bean dev reference](https://punchthrough.com/files/bean/sdk-docs/index.html)
+
+4. [Bean troubleshooting](http://legacy.punchthrough.com/bean/support/troubleshooting/)
+
+5. [Power supply voltage step down solution](http://www.shoutinginfrench.com/hacking-an-external-power-source-for-a-light-blue-bean/)
+
+6. [Bean iBean Mode](h.ttp://legacy.punchthrough.com/bean/ibeacon/)
+
+7. [Unofficial Bean SDK](https://github.com/PunchThrough/Bean-Android-SDK)
