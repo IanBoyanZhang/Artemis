@@ -105,6 +105,8 @@ References:
 
 6. [IOT Prototyping with Particle Photon](http://www.tamberg.org/chopen/2015/IoTPrototyping.pdf)
 
+7. [Enabling i2c devices on BBB](http://beaglebone.cameon.net/home/i2c-devices)
+
 # Particle/ARM
 
 1. [Particle Docs: The Build System](https://github.com/spark/firmware/blob/latest/docs/build.md)
@@ -128,3 +130,7 @@ References:
 6. [Bean iBean Mode](h.ttp://legacy.punchthrough.com/bean/ibeacon/)
 
 7. [Unofficial Bean SDK](https://github.com/PunchThrough/Bean-Android-SDK)
+
+# Android React Native
+
+1. [React Native Android Setup](https://facebook.github.io/react-native/docs/android-setup.html)
