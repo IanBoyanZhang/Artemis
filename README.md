@@ -134,3 +134,5 @@ References:
 # Android React Native
 
 1. [React Native Android Setup](https://facebook.github.io/react-native/docs/android-setup.html)
+
+2. [Can an Android device act as an iBeacon](http://stackoverflow.com/questions/19602913/can-an-android-device-act-as-an-ibeacon)
