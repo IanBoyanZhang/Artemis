@@ -136,3 +136,7 @@ References:
 1. [React Native Android Setup](https://facebook.github.io/react-native/docs/android-setup.html)
 
 2. [Can an Android device act as an iBeacon](http://stackoverflow.com/questions/19602913/can-an-android-device-act-as-an-ibeacon)
+
+# Bluetooth and BLE
+
+1. [How GAP an GATT work](https://www.punchthrough.com/bean/guides/everything-else/how-gap-and-gatt-work/)
