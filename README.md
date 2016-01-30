@@ -72,6 +72,12 @@ Ex:
 screen /dev/tty.usbmodem1421
 
 ```
+### Connecting to Photon/Getting started using OSX
+
+[Connect to Photon using OSX](https://docs.particle.io/guide/getting-started/connect/photon/#using-osx)
+
+
+
 
 ## Light Blue Bean (Bean)
 
