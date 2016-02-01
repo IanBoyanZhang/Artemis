@@ -67,6 +67,17 @@ Communication core source code location
 
 In terminal:
 
+Search connected USB tty
+
+```bash
+ls /dev/tty.usb*
+```
+
+Sample output:
+```bash
+/dev/tty.usbmodem1411
+```
+
 Ex: 
 ```bash
 screen /dev/tty.usbmodem1421
@@ -75,9 +86,6 @@ screen /dev/tty.usbmodem1421
 ### Connecting to Photon/Getting started using OSX
 
 [Connect to Photon using OSX](https://docs.particle.io/guide/getting-started/connect/photon/#using-osx)
-
-
-
 
 ## Light Blue Bean (Bean)
 
@@ -146,3 +154,7 @@ References:
 # Bluetooth and BLE
 
 1. [How GAP an GATT work](https://www.punchthrough.com/bean/guides/everything-else/how-gap-and-gatt-work/)
+
+# Particle Mobile
+
+1. [Blynk multiple embedded platform Android library](https://github.com/blynkkk/blynk-library)
