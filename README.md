@@ -158,3 +158,8 @@ References:
 # Particle Mobile
 
 1. [Blynk multiple embedded platform Android library](https://github.com/blynkkk/blynk-library)
+
+## Relay
+
+Single Relay Board
+[Single Relay Board Guide](http://pub.ucpros.com/download/27115-Single-Relay-Board-Guide-v1.0.pdf)
