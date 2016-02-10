@@ -163,3 +163,7 @@ References:
 
 Single Relay Board
 [Single Relay Board Guide](http://pub.ucpros.com/download/27115-Single-Relay-Board-Guide-v1.0.pdf)
+
+# RedBearLab
+
+[install and add gcc arm to PATH.sh](https://gist.github.com/joegoggins/7763637)
