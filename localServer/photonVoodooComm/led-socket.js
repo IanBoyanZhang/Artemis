@@ -110,8 +110,15 @@ var board = new Particle({
   port: 48879
 });
 */
+
+/*
 var board = new Particle({
   host: '10.84.18.7',
+  port: 48879,
+});*/
+
+var board = new Particle({
+  host: '192.168.1.113',
   port: 48879,
 });
 
