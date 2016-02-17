@@ -167,6 +167,7 @@ Single Relay Board
 # RedBearLab
 
 [install and add gcc arm to PATH.sh](https://gist.github.com/joegoggins/7763637)
+[Development Guide](http://redbearlab.com/nrf51822-sdk/)
 
 # Passive Proximity Detection
 Atmel solution
