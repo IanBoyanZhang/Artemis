@@ -167,3 +167,27 @@ Single Relay Board
 # RedBearLab
 
 [install and add gcc arm to PATH.sh](https://gist.github.com/joegoggins/7763637)
+
+# Passive Proximity Detection
+Atmel solution
+
+Low Power Consumption:
+The average current consumption for a single proximity detection node should be less than 100uA to avoid excessive drain on the battery when the vehicle is not running
+
+Fast Response Time:
+The sensor scan rate, the time between sensor reading should be less than 20ms. A fast scan rate means more sensor reading per second, which will result in earlier detection of 
+driver's hand as it approaches the door handle sensor.
+
+This will mitigate the delay introduced by communication processing and enable quickly unlock.
+
+Simple, Low-cost interface:
+
+Standard networking interfaces such as CAN or LIN requires excessive protocol/processing overhead and are too power hungry for this low power application. A simple, more streamlined
+approach is required, one that utilize a single-wire +12V power line data transfer protocol.
+
+Robust Environmental Performance:
+
+The proximity sensor must be able to withstand the harsh operating environment that the automobile exterior is exposed to. This means that the sensor must resist the effects of 
+moisture, temperature and localized electromagnetic disturbance.
+
+(Fast Charge Mode)
