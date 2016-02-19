@@ -169,6 +169,8 @@ Single Relay Board
 [install and add gcc arm to PATH.sh](https://gist.github.com/joegoggins/7763637)
 [Development Guide](http://redbearlab.com/nrf51822-sdk/)
 
+## MBED + nRF51822
+
 # Passive Proximity Detection
 Atmel solution
 
@@ -192,3 +194,14 @@ The proximity sensor must be able to withstand the harsh operating environment t
 moisture, temperature and localized electromagnetic disturbance.
 
 (Fast Charge Mode)
+
+# Stores
+
+## RF stores
+
+[Semistore Wireless Promo](http://www.semiconductorstore.com/Pages/Promo_Landing/Semistore_Wireless_06_2010_Promo2.asp)
+
+
+# Power Storage
+
+[Battery Holder 3D printable](http://www.thingiverse.com/thing:834695)
