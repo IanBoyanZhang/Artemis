@@ -87,6 +87,13 @@ screen /dev/tty.usbmodem1421
 
 [Connect to Photon using OSX](https://docs.particle.io/guide/getting-started/connect/photon/#using-osx)
 
+### Energy Consumption
+
+Particle forum
+[Photon energy consumption estimation](https://community.particle.io/t/datasheet-of-photon/10884/4)
+
+[Photon power consumption info](https://community.particle.io/t/photon-power-consumption-info/9019/11)
+
 ## Light Blue Bean (Bean)
 
 ### Getting started OSX
@@ -209,3 +216,11 @@ moisture, temperature and localized electromagnetic disturbance.
 # Produce certification
 
 Underwriters Labs (UL)
+
+# beacon
+
+[Aislelabs beacon hardware comprehensive report 2015](http://www.aislelabs.com/reports/beacon-guide/)
+
+[All beacons reviews](https://nonokunono.wordpress.com/)
+
+Open-Mesh? CloudTrax?
