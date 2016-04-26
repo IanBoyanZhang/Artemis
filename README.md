@@ -224,3 +224,7 @@ Underwriters Labs (UL)
 [All beacons reviews](https://nonokunono.wordpress.com/)
 
 Open-Mesh? CloudTrax?
+
+# Edision 
+
+[Edison WiFi](http://www.intel.com/content/dam/support/us/en/documents/edison/sb/edison_wifi_331438001.pdf)
