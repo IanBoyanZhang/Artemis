@@ -27,6 +27,14 @@ Question: Is it necessary to use "custom\_board.h" with 1.5 version firmware?
 
 [Nordic Semi nRF51822 developer SDK zone](http://developer.nordicsemi.com/)
 
+### Remap memory 
+
+BLE nano with s110
+
+[BLE nano Eclipse BLE Nano](http://blog.blecentral.com/2015/06/05/eclipse_ble_nano/)
+
+BLE nano with s130
+[nRF51822 iRAM and iROM settings for v05 s130 sd](https://devzone.nordicsemi.com/question/15994/nrf51822-iram-and-irom-settings-for-v05-s130-sd/)
 Requiremnts:
 
 Hardware: 
