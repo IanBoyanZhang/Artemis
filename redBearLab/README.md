@@ -49,6 +49,12 @@ Phone App:
 
   BLE Central device with Nordic nRF ToolBox App installed e.g. an iPhone 4s or later
 
+
+## Command line merge
+
+srec_cat $SOFTDEVICE -intel $INPUT -intel -o $OUTPUT -intel --line-length=44
+
+
 ## Online debugger
 
 [How to use MK20 with openocd for debugging](https://developer.mbed.org/questions/4934/How-to-use-MK20-with-openocd-for-debuggi/)
