@@ -23,6 +23,10 @@ Question: Is it necessary to use "custom\_board.h" with 1.5 version firmware?
 
 [Development with GCC and Eclipse](https://devzone.nordicsemi.com/tutorials/7/)
 
+[Nordic Semi nRF51822 download central](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+
+[Nordic Semi nRF51822 developer SDK zone](http://developer.nordicsemi.com/)
+
 Requiremnts:
 
 Hardware: 
@@ -37,6 +41,7 @@ Software:
 
     You can try S120 or S130 if you want to development BLE central role firmware
 
+    [S130 softdevice download center](https://www.nordicsemi.com/eng/nordic/Products/nRF51822/S130-SD/46579)
 Utility:
 
   merge tool -> srec\_cat
