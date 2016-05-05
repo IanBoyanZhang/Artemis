@@ -65,6 +65,10 @@ Phone App:
 
 ## Command line merge
 
+Note: to compile example within Nordic SDK
+
+Put custom_board.h file into example/bsp folder where example boards.h searching board specific support package
+
 srec_cat $SOFTDEVICE -intel $INPUT -intel -o $OUTPUT -intel --line-length=44
 
 
