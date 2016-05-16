@@ -46,6 +46,12 @@ typedef enum
     [self.sendTextField setDelegate:self];
 }
 
+// Auto UART connect
+- (void)viewDidAppear:(BOOL)animated
+{
+
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -160,8 +166,31 @@ typedef enum
     if (central.state == CBCentralManagerStatePoweredOn)
     {
         [self.connectButton setEnabled:YES];
+        switch (self.state) {
+            case IDLE:
+                self.state = SCANNING;
+                
+                NSLog(@"Started scan ...");
+                [self.connectButton setTitle:@"Scanning ..." forState:UIControlStateNormal];
+                
+                [self.cm scanForPeripheralsWithServices:@[UARTPeripheral.uartServiceUUID] options:@{CBCentralManagerScanOptionAllowDuplicatesKey: [NSNumber numberWithBool:NO]}];
+                break;
+                
+            case SCANNING:
+                self.state = IDLE;
+                NSLog(@"Stopped scan");
+                [self.connectButton setTitle:@"Connect" forState:UIControlStateNormal];
+                
+                [self.cm stopScan];
+                
+                break;
+                
+            case CONNECTED:
+                NSLog(@"Disconnect peripheral %@", self.currentPeripheral.peripheral.name);
+                [self.cm cancelPeripheralConnection:self.currentPeripheral.peripheral];
+                break;
+        }
     }
-    
 }
 
 - (void) centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI
@@ -189,6 +218,8 @@ typedef enum
     {
         [self.currentPeripheral didConnect];
     }
+    [self addTextToConsole:@"1" dataType:TX];
+    [self.currentPeripheral writeString:@"1"];
 }
 
 - (void) centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error
