@@ -217,9 +217,10 @@ typedef enum
     if ([self.currentPeripheral.peripheral isEqual:peripheral])
     {
         [self.currentPeripheral didConnect];
+        [self addTextToConsole:@"1" dataType:TX];
+        [self.currentPeripheral writeString:@"1"];
     }
-    [self addTextToConsole:@"1" dataType:TX];
-    [self.currentPeripheral writeString:@"1"];
+
 }
 
 - (void) centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error
