@@ -196,6 +196,10 @@ typedef enum
 - (void) centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI
 {
     NSLog(@"Did discover peripheral %@", peripheral.name);
+    
+//    (void)peripheral.readRSSI;
+//    NSLog(@"Peripheral device RSSI %@", peripheral.RSSI);
+    
     [self.cm stopScan];
     
     self.currentPeripheral = [[UARTPeripheral alloc] initWithPeripheral:peripheral delegate:self];
@@ -206,7 +210,7 @@ typedef enum
 - (void) centralManager:(CBCentralManager *)central didConnectPeripheral:(CBPeripheral *)peripheral
 {
     NSLog(@"Did connect peripheral %@", peripheral.name);
-
+    
     [self addTextToConsole:[NSString stringWithFormat:@"Did connect to %@", peripheral.name] dataType:LOGGING];
     
     self.state = CONNECTED;
@@ -217,9 +221,10 @@ typedef enum
     if ([self.currentPeripheral.peripheral isEqual:peripheral])
     {
         [self.currentPeripheral didConnect];
+        
+        [self addTextToConsole:@"1" dataType:TX];
+        [self.currentPeripheral writeString:@"1"];
     }
-    [self addTextToConsole:@"1" dataType:TX];
-    [self.currentPeripheral writeString:@"1"];
 }
 
 - (void) centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error
@@ -237,5 +242,10 @@ typedef enum
     {
         [self.currentPeripheral didDisconnect];
     }
+    
+    
+    (void)peripheral.readRSSI;
+    NSLog(@"Peripheral device RSSI %@", peripheral.RSSI);
 }
+
 @end
