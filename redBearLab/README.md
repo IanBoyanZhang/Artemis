@@ -83,4 +83,5 @@ srec_cat $SOFTDEVICE -intel $INPUT -intel -o $OUTPUT -intel --line-length=44
 
 [Getting started with nRF Studio Go on OSX and Linux](https://github.com/tigoe/BLEDocs/wiki/Getting-Started-with-nRF-Studio-Go-on-OSX-and-Linux)
 
+[What is PCA10028](https://devzone.nordicsemi.com/question/75039/pca10028-what-is-it/)
 <img src="https://github.com/IanBoyanZhang/Artemis/blob/master/redBearLab/images/pca10028.jpeg?raw=true" width="150" data-rotate="-90">
