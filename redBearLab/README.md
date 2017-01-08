@@ -83,6 +83,4 @@ srec_cat $SOFTDEVICE -intel $INPUT -intel -o $OUTPUT -intel --line-length=44
 
 [Getting started with nRF Studio Go on OSX and Linux](https://github.com/tigoe/BLEDocs/wiki/Getting-Started-with-nRF-Studio-Go-on-OSX-and-Linux)
 
-![Board type indicator](https://github.com/IanBoyanZhang/Artemis/blob/master/redBearLab/images/pca10028.jpeg?raw=true)
-
-<img src="https://github.com/IanBoyanZhang/Artemis/blob/master/redBearLab/images/pca10028.jpeg?raw=true" width="60">
+<img src="https://github.com/IanBoyanZhang/Artemis/blob/master/redBearLab/images/pca10028.jpeg?raw=true" width="150" data-rotate="-90">
