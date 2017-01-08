@@ -228,3 +228,7 @@ Open-Mesh? CloudTrax?
 # Edision 
 
 [Edison WiFi](http://www.intel.com/content/dam/support/us/en/documents/edison/sb/edison_wifi_331438001.pdf)
+
+# Nordic Semi
+
+[Getting Started with nRF Studio Go on OSX and Linux](https://github.com/tigoe/BLEDocs/wiki/Getting-Started-with-nRF-Studio-Go-on-OSX-and-Linux)
