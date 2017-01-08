@@ -75,3 +75,10 @@ srec_cat $SOFTDEVICE -intel $INPUT -intel -o $OUTPUT -intel --line-length=44
 ## Online debugger
 
 [How to use MK20 with openocd for debugging](https://developer.mbed.org/questions/4934/How-to-use-MK20-with-openocd-for-debuggi/)
+
+
+## Official DK
+
+### nRFStudio
+
+[Getting started with nRF Studio Go on OSX and Linux](https://github.com/tigoe/BLEDocs/wiki/Getting-Started-with-nRF-Studio-Go-on-OSX-and-Linux)
