@@ -232,3 +232,8 @@ Open-Mesh? CloudTrax?
 # Nordic Semi
 
 [Getting Started with nRF Studio Go on OSX and Linux](https://github.com/tigoe/BLEDocs/wiki/Getting-Started-with-nRF-Studio-Go-on-OSX-and-Linux)
+
+## Blinky Example
+As in 01/11/2017, test nRF51 DK board (SDK version nRF5_SDK_12.0.0_12f24da.zip);
+
+First test with blank version source code. No softdevice
