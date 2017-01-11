@@ -237,3 +237,6 @@ Open-Mesh? CloudTrax?
 As in 01/11/2017, test nRF51 DK board (SDK version nRF5_SDK_12.0.0_12f24da.zip);
 
 First test with blank version source code. No softdevice
+
+## Toolchain
+[Programming an nRF on mac](https://aaroneiche.com/2016/06/01/programming-an-nrf52-on-a-mac/)
