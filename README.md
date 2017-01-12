@@ -241,3 +241,11 @@ First test with blank version source code. No softdevice
 ## Toolchain
 [Programming an nRF on mac](https://aaroneiche.com/2016/06/01/programming-an-nrf52-on-a-mac/)
 [nrfjprog pynrfjprog](https://devzone.nordicsemi.com/blogs/840/nrfjprog-pynrfjprog-intro-mac-os-x-linux-now-suppo/)
+
+## Test with external antenna
+Connection: Section 5.8
+[nRF51 DK UG v1.1](http://infocenter.nordicsemi.com/pdf/nRF51_DK_UG_v1.1.pdf)
+
+Code example with RF test example
+Direct Test Mode (DTM)
+components/ble/ble_dtm
