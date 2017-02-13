@@ -254,3 +254,14 @@ components/ble/ble_dtm
 
 ### Reset
 [How to implement reset button on nRF51822](https://devzone.nordicsemi.com/question/3632/how-to-implement-reset-button-on-nrf51822/)
+
+### General SWD questions
+[Programming Internal flash over the serial wire debug interface](https://www.silabs.com/Support%20Documents/TechnicalDocs/AN0062.pdf)
+
+### nRF programming
+
+Breakout
+
+[Can I directly start programming a nRF51822 breakout board](https://devzone.nordicsemi.com/question/1874/can-i-directly-start-programming-a-nrf51822-breakout-board/)
+
+[nRF 51 dk external programming](http://electronut.in/nrf51-dk-external-programming/)
