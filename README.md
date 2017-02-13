@@ -249,3 +249,8 @@ Connection: Section 5.8
 Code example with RF test example
 Direct Test Mode (DTM)
 components/ble/ble_dtm
+
+## nRF schematic
+
+### Reset
+[How to implement reset button on nRF51822](https://devzone.nordicsemi.com/question/3632/how-to-implement-reset-button-on-nrf51822/)
