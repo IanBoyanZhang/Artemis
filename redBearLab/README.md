@@ -76,8 +76,9 @@ srec_cat $SOFTDEVICE -intel $INPUT -intel -o $OUTPUT -intel --line-length=44
 
 [How to use MK20 with openocd for debugging](https://developer.mbed.org/questions/4934/How-to-use-MK20-with-openocd-for-debuggi/)
 
-
 [reating a Bluetooth LE Mouse using Nordic nRF51 and Visual Studio](https://visualgdb.com/tutorials/arm/nrf51/mouse/)
+
+[Setting up segger on a mac or pc and debug step by step](https://devzone.nordicsemi.com/blogs/1104/setting-up-segger-on-a-mac-or-pc-and-debug-step-by/)
 
 ## Official DK
 
