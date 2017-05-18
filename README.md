@@ -265,3 +265,7 @@ Breakout
 [Can I directly start programming a nRF51822 breakout board](https://devzone.nordicsemi.com/question/1874/can-i-directly-start-programming-a-nrf51822-breakout-board/)
 
 [nRF 51 dk external programming](http://electronut.in/nrf51-dk-external-programming/)
+
+With debugger
+
+[Creating a Bluetooth LE Mouse using Nordic nRF51 and Visual Studio](https://visualgdb.com/tutorials/arm/nrf51/mouse/)
