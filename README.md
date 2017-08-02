@@ -63,6 +63,10 @@ Communication core source code location
 
 ./firmware/communication
 
+#### Particle user-code download
+
+[Wifi DFU reference](https://github.com/spark/docs/wiki/DFU-reference)
+
 ### Serial Communication
 
 In terminal:
